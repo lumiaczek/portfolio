@@ -66,7 +66,11 @@
 				</div>
 			</div>
 		</div>
-		<form class="flex flex-col lg:w-1/3 w-full lg:ml-10 mt-10 lg:mt-0" data-netlify="true">
+		<form
+			name="contact"
+			class="flex flex-col lg:w-1/3 w-full lg:ml-10 mt-10 lg:mt-0"
+			data-netlify="true"
+		>
 			<p class="text-xl mb-1">Imię</p>
 			<input
 				type="text"
