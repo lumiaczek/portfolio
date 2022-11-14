@@ -66,7 +66,7 @@
 				</div>
 			</div>
 		</div>
-		<form method="post" class="flex flex-col lg:w-1/3 w-full lg:ml-10 mt-10 lg:mt-0">
+		<form method="post" class="flex flex-col lg:w-1/3 w-full lg:ml-10 mt-10 lg:mt-0" netlify>
 			<p class="text-xl mb-1">Imię</p>
 			<input
 				type="text"

@@ -12,7 +12,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 			<div class="${"card-contact text-2xl flex-col flex gap-2 "}"><div class="${"border-2 border-purple-700 p-6 rounded-lg h-full"}"><div class="${"flex flex-row items-center mb-4"}"><svg xmlns="${"http://www.w3.org/2000/svg"}" class="${"h-10 w-10 fill-white mr-3"}" preserveAspectRatio="${"xMidYMid meet"}" viewBox="${"0 0 384 512"}"><path fill="${"currentColor"}" d="${"M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"}"></path></svg>
 						<p>Adres</p></div>
 					<a href="${"https://www.google.com/maps?client=firefox-b-d&q=barlinek&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiriu2WpKn7AhWslIsKHY2xATAQ_AUoAXoECAEQAw"}" target="${"GoogleMaps"}">Barlinek, Zachodniopomorskie, Polska</a></div></div></div>
-		<form method="${"post"}" class="${"flex flex-col lg:w-1/3 w-full lg:ml-10 mt-10 lg:mt-0"}"><p class="${"text-xl mb-1"}">Imi\u0119</p>
+		<form method="${"post"}" class="${"flex flex-col lg:w-1/3 w-full lg:ml-10 mt-10 lg:mt-0"}" netlify><p class="${"text-xl mb-1"}">Imi\u0119</p>
 			<input type="${"text"}" class="${"bg-[#171717] bg-opacity-50 border-b-2 border-2 border-b-purple-700 border-transparent focus:border-purple-700 transition-all duration-200 outline-none rounded-lg text-lg px-6 py-2 w-full"}">
 			<p class="${"text-xl mb-1 mt-3"}">Adres e-mail</p>
 			<input type="${"text"}" class="${"bg-[#171717] bg-opacity-50 border-b-2 border-2 border-b-purple-700 border-transparent focus:border-purple-700 transition-all duration-200 outline-none rounded-lg text-lg px-6 py-2"}">

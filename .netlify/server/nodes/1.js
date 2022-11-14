@@ -2,6 +2,6 @@
 
 export const index = 1;
 export const component = async () => (await import('../entries/fallbacks/error.svelte.js')).default;
-export const file = '_app/immutable/components/error.svelte-d6225fa8.js';
-export const imports = ["_app/immutable/components/error.svelte-d6225fa8.js","_app/immutable/chunks/index-9fbdb7d9.js","_app/immutable/chunks/stores-e9526000.js","_app/immutable/chunks/singletons-0d16e581.js","_app/immutable/chunks/index-4baff9a3.js"];
+export const file = '_app/immutable/components/error.svelte-cf27759a.js';
+export const imports = ["_app/immutable/components/error.svelte-cf27759a.js","_app/immutable/chunks/index-9fbdb7d9.js","_app/immutable/chunks/stores-7a7100d4.js","_app/immutable/chunks/singletons-c0442d0f.js","_app/immutable/chunks/index-4baff9a3.js"];
 export const stylesheets = [];
