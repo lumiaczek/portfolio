@@ -72,7 +72,7 @@
 			</ul>
 			<ul class="flex flex-row justify-center items-center space-x-2 px-2 py-4">
 				<li>
-					<a href="https://github.com/lumiaczek" target="Github">
+					<a href="https://github.com/lumiaczek" target="Github" aria-label="Github">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="w-7 h-7 fill-white hover:fill-purple-700 transition-all duration-200"
@@ -86,7 +86,11 @@
 					</a>
 				</li>
 				<li>
-					<a href="https://www.facebook.com/daniel.borowski.1848816" target="Facebook">
+					<a
+						href="https://www.facebook.com/daniel.borowski.1848816"
+						target="Facebook"
+						aria-label="Facebook"
+					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="w-7 h-7 fill-white hover:fill-purple-700 transition-all duration-200"
@@ -100,7 +104,11 @@
 					</a>
 				</li>
 				<li>
-					<a href="https://www.linkedin.com/in/daniel-borowski-622466215/" target="LinkedIn">
+					<a
+						href="https://www.linkedin.com/in/daniel-borowski-622466215/"
+						target="LinkedIn"
+						aria-label="LinkedIn"
+					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="w-7 h-7 fill-white hover:fill-purple-700 transition-all duration-200"

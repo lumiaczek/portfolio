@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Daniel Borowski | Kontakt</title>
+</svelte:head>
+
 <section class="xl:w-[90%] lg:h-[90vh] xl:mx-auto 3xl:w-[85%] flex flex-col  text-white p-6">
 	<div class="w-full">
 		<p class="text-2xl text-center mx-auto">Zrealizujmy twój pomysł</p>
