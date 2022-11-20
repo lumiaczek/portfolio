@@ -1,17 +1,13 @@
-<p>
-	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique soluta quod voluptate? Nemo
-	minima aperiam ipsum distinctio rerum labore non, ipsa dolor repellendus! Dolor impedit odit,
-	dignissimos blanditiis quas ipsum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
-	aperiam perspiciatis incidunt laborum vel deleniti nihil veniam nam distinctio quod. Libero quae,
-	assumenda ut veritatis optio aliquid cumque quas saepe.
+<p class="mb-2 leading-relaxed">
+	Już od najmłodszych lat interesowałem się komputerami i informatyką. Pierwszy swój program
+	napisałem w wieku 8 lat. Na codzień uczęszczam do 3 klasy technikum Zespołu Szkół Elektrycznych w
+	Gorzowie Wielkopolskim na kierunku technik informatyk.
 </p>
-<p>
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. At quaerat excepturi sit, eaque, dolorem
-	vel consequatur saepe, mollitia commodi voluptatum autem similique necessitatibus earum animi
-	doloremque quia deleniti aliquam. Culpa.
+<p class="leading-relaxed mb-2">
+	Poza szkołą jestem drużynowym 6 Barlineckiej Drużyny Harcerskiej "Sokół", przewodniczącym zespołu
+	ds. promocji Harcerskiego Szczepu Puszczy Barlineckiej oraz Ratownikiem ZHP.
 </p>
-<p>
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. At quaerat excepturi sit, eaque, dolorem
-	vel consequatur saepe, mollitia commodi voluptatum autem similique necessitatibus earum animi
-	doloremque quia deleniti aliquam. Culpa.
+<p class="leading-relaxed">
+	Oprócz informatyki moją pasją jest również siłownia i uczęszczam na nią codziennie już od prawie
+	dwóch lat. Starajam się zachować idealną sprawność fizyczną i gonić rekord za rekordem.
 </p>

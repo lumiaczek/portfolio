@@ -43,7 +43,7 @@
 						<p>Email</p>
 					</div>
 
-					<a href="mailto:danielb.business05@gmail.com" class="lg:text-2xl text-xl"
+					<a href="mailto:danielb.business05@gmail.com" class="lg:text-2xl text-lg"
 						>danielb.business05@gmail.com</a
 					>
 				</div>

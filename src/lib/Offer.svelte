@@ -22,7 +22,7 @@
 	>
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
-			class="text-center hover:scale-105 transition-all duration-200 hover:border-purple-700 border-2 border-transparent cursor-pointer p-4 rounded-lg"
+			class="text-center hover:scale-105 transition-all duration-200 hover:border-purple-700 border-2 border-transparent cursor-pointer p-4 rounded-lg lg:w-1/3 self-stretch"
 			on:click={price}
 		>
 			<svg
@@ -37,15 +37,13 @@
 			>
 			<h1 class="text-3xl mb-4 text-purple-700 font-medium">Tworzenie aplikacji Internetowych</h1>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem earum cupiditate
-				quibusdam quo beatae eius, itaque perferendis odit, architecto iusto temporibus similique
-				suscipit inventore dolor aspernatur natus vel quisquam animi? Lorem ipsum dolor sit amet
-				consectetur adipisicing elit.
+				Utworzę od podstaw stonę/aplikację spersonalizowaną pod Ciebie, w pełni responsywną,
+				niesamowicie szybką oraz z niskimi kosztami utrzymania i eksploatacji.
 			</p>
 		</div>
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
-			class="text-center hover:scale-105 transition-all duration-200 hover:border-purple-700 border-2 border-transparent p-4  cursor-pointer rounded-lg"
+			class="text-center hover:scale-105 transition-all duration-200 hover:border-purple-700 border-2 border-transparent p-4  cursor-pointer rounded-lg lg:w-1/3 self-stretch"
 			on:click={price}
 		>
 			<svg
@@ -56,17 +54,17 @@
 					d="M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM344 152c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm96-24c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zM64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V352c0-35.3-28.7-64-64-64H64zM344 408c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm104-24c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24z"
 				/></svg
 			>
-			<h1 class="text-3xl mb-4 text-purple-700 font-medium">Usługi <br /> informatyczne</h1>
+			<h1 class="text-3xl mb-4 text-purple-700 font-medium">
+				Usługi <br /> informatyczne
+			</h1>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem earum cupiditate
-				quibusdam quo beatae eius, itaque perferendis odit, architecto iusto temporibus similique
-				suscipit inventore dolor aspernatur natus vel quisquam animi? Lorem ipsum dolor sit amet
-				consectetur adipisicing elit.
+				Oferuję całą gamę usług informatycznych od czyszczenia, napraw i modernizacji komputerów
+				oraz laptopów, aż do projektowania lokalnych sieci komputerowych.
 			</p>
 		</div>
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
-			class="text-center hover:scale-105 transition-all duration-200 hover:border-purple-700 border-2 border-transparent cursor-pointer p-4 rounded-lg"
+			class="text-center hover:scale-105 transition-all duration-200 hover:border-purple-700 border-2 border-transparent cursor-pointer p-4 rounded-lg lg:w-1/3 self-stretch"
 			on:click={price}
 		>
 			<svg
@@ -77,15 +75,10 @@
 					d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM144 448c0 8.8 7.2 16 16 16h64c8.8 0 16-7.2 16-16s-7.2-16-16-16H160c-8.8 0-16 7.2-16 16zM304 64H80V384H304V64z"
 				/></svg
 			>
-			<h1 class="text-3xl mb-4 text-purple-700 font-medium">
+			<h1 class="text-3xl mb-4 text-purple-700 font-medium self-stretch">
 				Tworzenie aplikacji <br /> mobilnych
 			</h1>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem earum cupiditate
-				quibusdam quo beatae eius, itaque perferendis odit, architecto iusto temporibus similique
-				suscipit inventore dolor aspernatur natus vel quisquam animi? Lorem ipsum dolor sit amet
-				consectetur adipisicing elit.
-			</p>
+			<p class="rounded-lg bg-red-600 py-2 px-4 w-fit mx-auto">Wkrótce dostępne.</p>
 		</div>
 	</div>
 </section>

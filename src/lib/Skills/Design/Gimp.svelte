@@ -13,7 +13,7 @@
 	</div>
 	<div class="w-full">
 		<h3 class="text-xl font-medium">Gimp</h3>
-		<p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit comasa.</p>
+		<p class="mb-4" />
 		<div class="flex w-full justify-between items-center mb-1 text-sm">
 			<p>Poziom umiejętności</p>
 			<p class="text-right">Podstawowy</p>

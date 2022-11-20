@@ -51,7 +51,14 @@
 				</div>
 			{/if}
 			{#if filter.web && serv.type === 'web'}
-				<div class="card flex flex-col text-center" id={serv.id.toString()}>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<div
+					class="card flex flex-col text-center transition-all duration-200 cursor-pointer hover:scale-105"
+					id={serv.id.toString()}
+					on:click={() => {
+						toggleModal(serv.id);
+					}}
+				>
 					<div class="border-purple-700 border-2 px-2 py-4 rounded-lg h-full">
 						{@html serv.svg}
 						<h3 class="mx-auto text-2xl text-white">{serv.name}</h3>
@@ -61,7 +68,14 @@
 				</div>
 			{/if}
 			{#if filter.cheapWeb && serv.type === 'cheapWeb'}
-				<div class="card flex flex-col text-center" id={serv.id.toString()}>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<div
+					class="card flex flex-col text-center transition-all duration-200 cursor-pointer hover:scale-105"
+					id={serv.id.toString()}
+					on:click={() => {
+						toggleModal(serv.id);
+					}}
+				>
 					<div class="border-purple-700 border-2 px-2 py-4 rounded-lg h-full">
 						{@html serv.svg}
 						<h3 class="mx-auto text-2xl text-white">{serv.name}</h3>
@@ -71,7 +85,14 @@
 				</div>
 			{/if}
 			{#if filter.hardware && serv.type === 'hardware'}
-				<div class="card flex flex-col text-center" id={serv.id.toString()}>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<div
+					class="card flex flex-col text-center transition-all duration-200 cursor-pointer hover:scale-105"
+					id={serv.id.toString()}
+					on:click={() => {
+						toggleModal(serv.id);
+					}}
+				>
 					<div class="border-purple-700 border-2 px-2 py-4 rounded-lg h-full">
 						{@html serv.svg}
 						<h3 class="mx-auto text-2xl text-white">{serv.name}</h3>
