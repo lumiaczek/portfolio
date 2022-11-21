@@ -46,7 +46,6 @@
 						{@html serv.svg}
 						<h3 class="mx-auto text-2xl text-white">{serv.name}</h3>
 						<p class="font-bold text-2xl mt-3">od {serv.cena}</p>
-						<p class="mt-4">{serv.opis}</p>
 					</div>
 				</div>
 			{/if}
@@ -59,11 +58,10 @@
 						toggleModal(serv.id);
 					}}
 				>
-					<div class="border-purple-700 border-2 px-2 py-4 rounded-lg h-full">
+					<div class="border-purple-700 border-2 px-4 py-4 rounded-lg h-full">
 						{@html serv.svg}
 						<h3 class="mx-auto text-2xl text-white">{serv.name}</h3>
 						<p class="font-bold text-2xl mt-3">od {serv.cena}</p>
-						<p class="mt-4">{serv.opis}</p>
 					</div>
 				</div>
 			{/if}
@@ -80,7 +78,6 @@
 						{@html serv.svg}
 						<h3 class="mx-auto text-2xl text-white">{serv.name}</h3>
 						<p class="font-bold text-2xl mt-3">od {serv.cena}</p>
-						<p class="mt-4">{serv.opis}</p>
 					</div>
 				</div>
 			{/if}
@@ -97,7 +94,6 @@
 						{@html serv.svg}
 						<h3 class="mx-auto text-2xl text-white">{serv.name}</h3>
 						<p class="font-bold text-2xl mt-3">od {serv.cena}</p>
-						<p class="mt-4">{serv.opis}</p>
 					</div>
 				</div>
 			{/if}

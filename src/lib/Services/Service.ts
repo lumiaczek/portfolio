@@ -4,16 +4,23 @@ const uslugi = readable([
 	{
 		id: 1,
 		name: 'Strona wizytówka z dostępnego projektu',
-		opis: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. ',
+		opis: 'Prosta strona do reprezentacji ciebie lub twojej firmy. Do wyboru z dostępnych projektów - możliwa jedynie jest zmiana kolejności sekcji, kolorów strony oraz zawartości i zdjęć.',
 		type: 'cheapWeb',
-		punkty: ['Strona do wyboru z dostepnych projektow', 'Wsparcie internetowe przez tydzien'],
+		punkty: [
+			'Strona do wyboru dostępnych projektów',
+			'Wsparcie Internetowe przez tydzień',
+			'Możliwość małej konfiguracji wyglądu',
+			'Dostęp do Google Search Console',
+			'W pełni zaimplementowane SEO',
+			'Strona w pełni zgodna z a11y'
+		],
 		cena: 650,
 		svg: `<svg xmlns="http://www.w3.org/2000/svg" class="mb-3 mx-auto fill-white h-12 w-14" preserveAspectRatio="xMidYMid meet" viewBox="0 0 576 512"><path fill="currentColor" d="M0 96h576c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96zm0 32v288c0 35.3 28.7 64 64 64h448c35.3 0 64-28.7 64-64V128H0zm64 277.3c0-29.5 23.9-53.3 53.3-53.3h117.4c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7H74.7c-5.9 0-10.7-4.8-10.7-10.7zM176 320c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64zm176-112c0-8.8 7.2-16 16-16h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16z"/></svg>`
 	},
 	{
 		id: 2,
 		name: 'Strona wizytówka z personalnym projektem',
-		opis: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+		opis: 'Strona dla ciebie lub twojej firmy zaprojektowana od podstaw.',
 		type: 'cheapWeb',
 		punkty: ['Strona do wyboru z dostepnych projektow', 'Wsparcie internetowe przez tydzien'],
 		cena: 1000,
@@ -22,7 +29,7 @@ const uslugi = readable([
 	{
 		id: 3,
 		name: 'Strona WordPress',
-		opis: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+		opis: 'Strona wizytówka dla ciebie lub twojej firmy stworzona na systemie CMS WordPress.',
 		type: 'cheapWeb',
 		punkty: ['Strona do wyboru z dostepnych projektow', 'Wsparcie internetowe przez tydzien'],
 		cena: 800,
@@ -31,7 +38,7 @@ const uslugi = readable([
 	{
 		id: 4,
 		name: 'Personalizowana aplikacja Internetowa',
-		opis: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. ',
+		opis: 'Strona Internetowa z właściwościami pełnoprawnej aplikacji, zaprojektowana od podstaw np. system logistyczny.',
 		type: 'web',
 		punkty: ['Strona do wyboru z dostepnych projektow', 'Wsparcie internetowe przez tydzien'],
 		cena: 3000,

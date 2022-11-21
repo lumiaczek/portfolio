@@ -49,7 +49,15 @@
 						class="w-5 h-5 appearance-none border-2 border-[#171717] rounded bg-white mr-1 checked:bg-purple-700"
 						id="web"
 					/>
-					<p class="text-sm">Aplikacje internetowe</p>
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<p
+						class="text-sm cursor-pointer"
+						on:click={() => {
+							filter.web = !filter.web;
+						}}
+					>
+						Aplikacje internetowe
+					</p>
 				</div>
 				<div class="flex flex-row items-center mt-1">
 					<input
@@ -58,7 +66,15 @@
 						class="w-5 h-5  appearance-none border-2 border-[#171717] rounded bg-white mr-1 checked:bg-purple-700"
 						id="site"
 					/>
-					<p class="text-sm">Wiyzytówki</p>
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<p
+						class="text-sm cursor-pointer"
+						on:click={() => {
+							filter.cheapWeb = !filter.cheapWeb;
+						}}
+					>
+						Wiyzytówki
+					</p>
 				</div>
 				<div class="flex flex-row items-center mt-1">
 					<input
@@ -66,7 +82,15 @@
 						bind:checked={filter.hardware}
 						class="w-5 h-5 appearance-none border-2 border-[#171717] rounded bg-white mr-1 checked:bg-purple-700"
 					/>
-					<p class="text-sm">Usługi informatyczne</p>
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<p
+						class="text-sm cursor-pointer"
+						on:click={() => {
+							filter.hardware = !filter.hardware;
+						}}
+					>
+						Usługi informatyczne
+					</p>
 				</div>
 			</div>
 		</div>
