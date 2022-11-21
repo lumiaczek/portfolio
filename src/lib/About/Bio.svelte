@@ -7,7 +7,11 @@
 	Poza szkołą jestem drużynowym 6 Barlineckiej Drużyny Harcerskiej "Sokół", przewodniczącym zespołu
 	ds. promocji Harcerskiego Szczepu Puszczy Barlineckiej oraz Ratownikiem ZHP.
 </p>
-<p class="leading-relaxed">
+<p class="leading-relaxed mb-2">
 	Oprócz informatyki moją pasją jest również siłownia i uczęszczam na nią codziennie już od prawie
 	dwóch lat. Starajam się zachować idealną sprawność fizyczną i gonić rekord za rekordem.
+</p>
+<p class="leading-relaxed">
+	Jeżeli chodzi o ciekawostki informatyczne, to na codzień używam Arch Linux'a i nie wyobrażam sobie
+	używać Windowsa do tworzenia stron Internetowych.
 </p>

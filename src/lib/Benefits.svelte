@@ -51,7 +51,7 @@
 		>
 		<h2 class="text-3xl mt-5 text-purple-700 font-medium">Styl</h2>
 		<p class="mt-3">
-			Strony projektowane są od początku przezemnie przy zachowaniu nowoczesnych standardów UI/UX.
+			Strony projektowane są od początku przeze mnie przy zachowaniu nowoczesnych standardów UI/UX.
 		</p>
 	</div>
 	<div class="col-start-10 col-end-13 row-span-2 text-center card">
