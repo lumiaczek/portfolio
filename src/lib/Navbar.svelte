@@ -66,7 +66,10 @@
 				>
 					<a href="/work">Projekty</a>
 				</li>
-				<li class="py-2 px-4 rounded-lg hover:underline focus:underline">
+				<li
+					class="py-2 px-4 rounded-lg hover:underline focus:underline"
+					class:current={$page.url.pathname === '/contact'}
+				>
 					<a href="/contact">Kontakt</a>
 				</li>
 			</ul>

@@ -24,7 +24,7 @@
 				class:current={current === 'bio'}
 				on:click={() => {
 					changeCurrent('bio');
-				}}>Biografia</button
+				}}>Bio</button
 			>
 			<button
 				class="btn-about"

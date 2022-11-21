@@ -43,7 +43,7 @@
 						<p>Email</p>
 					</div>
 
-					<a href="mailto:danielb.business05@gmail.com" class="lg:text-2xl text-lg"
+					<a href="mailto:danielb.business05@gmail.com" class="lg:text-2xl md:text-lg text-sm"
 						>danielb.business05@gmail.com</a
 					>
 				</div>
@@ -65,7 +65,8 @@
 					</div>
 					<a
 						href="https://www.google.com/maps?client=firefox-b-d&q=barlinek&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiriu2WpKn7AhWslIsKHY2xATAQ_AUoAXoECAEQAw"
-						target="GoogleMaps">Barlinek, Zachodniopomorskie, Polska</a
+						target="GoogleMaps"
+						class="md:text-xl text-lg">Barlinek, Zachodniopomorskie, Polska</a
 					>
 				</div>
 			</div>
