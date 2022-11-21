@@ -17,11 +17,9 @@
 			/></svg
 		>
 
-		<h2 class="text-3xl mt-5">Wydajność</h2>
+		<h2 class="text-3xl mt-5 text-purple-700 font-medium">Wydajność</h2>
 		<p class="mt-3">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, rem totam. Laudantium, dolor vero
-			sint ipsa aliquam veritatis eligendi sunt excepturi harum temporibus veniam accusantium. Sint
-			qui atque eaque quis?
+			Moje strony dzięki użyciu nowoczosnego frameworka Svelte zapewniają niesamowitą wydajność.
 		</p>
 	</div>
 	<div class="col-start-4 col-end-7 row-span-2 text-center card">
@@ -35,11 +33,9 @@
 				d="M512 256c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0s256 114.6 256 256zm-350.5-86.1c-12.2-5.2-26.3.4-31.5 12.6s.4 26.3 12.6 31.5l11.9 5.1c17.3 7.4 35.2 12.9 53.6 16.3v50.1c0 4.3-.7 8.6-2.1 12.6l-28.7 86.1c-4.2 12.6 2.6 26.2 15.2 30.4s26.2-2.6 30.4-15.2l24.4-73.2c1.3-3.8 4.8-6.4 8.8-6.4s7.6 2.6 8.8 6.4l24.4 73.2c4.2 12.6 17.8 19.4 30.4 15.2s19.4-17.8 15.2-30.4l-28.7-86.1c-1.4-4.1-2.1-8.3-2.1-12.6v-50c18.4-3.5 36.3-8.9 53.6-16.3l11.9-5.1c12.2-5.2 17.8-19.3 12.6-31.5s-19.3-17.8-31.5-12.6l-12 5c-26.1 11.2-54.2 17-82.7 17s-56.5-5.8-82.7-17l-11.9-5.1zM256 160c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40s17.9 40 40 40z"
 			/></svg
 		>
-		<h2 class="text-3xl mt-5">Dostępnosć</h2>
+		<h2 class="text-3xl mt-5 text-purple-700 font-medium">Dostępnosć</h2>
 		<p class="mt-3">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, rem totam. Laudantium, dolor vero
-			sint ipsa aliquam veritatis eligendi sunt excepturi harum temporibus veniam accusantium. Sint
-			qui atque eaque quis?
+			Projektuje strony w pełni zgodne z teraźniejszymi standardami dostępności fundacji a11y.
 		</p>
 	</div>
 	<div class="col-start-7 col-end-10 row-span-2 text-center card">
@@ -53,11 +49,9 @@
 				d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2s-42.9-17.3-61.5-3.3L294.4 187.2c-24 18-38.2 46.1-38.4 76.1l115.3 103.8zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9.2 7.8.6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32h144c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"
 			/></svg
 		>
-		<h2 class="text-3xl mt-5">Styl</h2>
+		<h2 class="text-3xl mt-5 text-purple-700 font-medium">Styl</h2>
 		<p class="mt-3">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, rem totam. Laudantium, dolor vero
-			sint ipsa aliquam veritatis eligendi sunt excepturi harum temporibus veniam accusantium. Sint
-			qui atque eaque quis?
+			Strony projektowane są od początku przezemnie przy zachowaniu nowoczesnych standardów UI/UX.
 		</p>
 	</div>
 	<div class="col-start-10 col-end-13 row-span-2 text-center card">
@@ -71,11 +65,7 @@
 				d="M416 208c0 45.9-14.9 88.3-40 122.7l126.6 126.7c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208zM208 352c79.5 0 144-64.5 144-144S287.5 64 208 64S64 128.5 64 208s64.5 144 144 144z"
 			/></svg
 		>
-		<h2 class="text-3xl mt-5">SEO</h2>
-		<p class="mt-3">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, rem totam. Laudantium, dolor vero
-			sint ipsa aliquam veritatis eligendi sunt excepturi harum temporibus veniam accusantium. Sint
-			qui atque eaque quis?
-		</p>
+		<h2 class="text-3xl mt-5 text-purple-700 font-medium">SEO</h2>
+		<p class="mt-3">Strony projektowane są w pełni zgodne z standardami nowoczesnego SEO.</p>
 	</div>
 </section>
