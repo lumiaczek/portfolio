@@ -61,10 +61,10 @@
 					<a href="/price">Cennik</a>
 				</li>
 				<li
-					class:current={$page.url.pathname === '/work'}
+					class:current={$page.url.pathname === '/projects'}
 					class="py-2 px-4 rounded-lg hover:underline focus:underline"
 				>
-					<a href="/work">Projekty</a>
+					<a href="/projects">Projekty</a>
 				</li>
 				<li
 					class="py-2 px-4 rounded-lg hover:underline focus:underline"

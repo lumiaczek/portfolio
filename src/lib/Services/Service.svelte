@@ -19,6 +19,23 @@
 		id = serviceID;
 		modalVisible = !modalVisible;
 	};
+
+	$: {
+		if (modalVisible === true) {
+			let scrollTop: number;
+			let scrollLeft: number;
+			try {
+				scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+				(scrollLeft = window.pageXOffset || document.documentElement.scrollLeft),
+					(window.onscroll = () => {
+						window.scrollTo(scrollLeft, scrollTop);
+					});
+			} catch {}
+		}
+		if (modalVisible === false) {
+			window.onscroll = function () {};
+		}
+	}
 </script>
 
 {#if modalVisible}
@@ -30,7 +47,7 @@
 	/>
 {/if}
 
-<main class="grid grid-cols-1 lg:grid-cols-3 grid-rows-2 gap-4 w-full">
+<main class="grid grid-cols-1 lg:grid-cols-3 grid-rows-2 gap-4 w-full overflow-hidden">
 	{#each $service as serv, i (serv.id)}
 		{#if !(cena < serv.cena)}
 			{#if !filter.web && !filter.cheapWeb && !filter.hardware}

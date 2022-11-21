@@ -15,7 +15,7 @@
 	<title>Daniel Borowski | Cennik</title>
 </svelte:head>
 
-<section class="xl:w-[90%] xl:mx-auto 3xl:w-[85%] flex flex-col text-white p-6">
+<section class="xl:w-[90%] xl:mx-auto 3xl:w-[85%] flex flex-col text-white p-6 overflow-hidden">
 	<div class="">
 		<p class="text-3xl text-center md:text-left mb-1">Sprawdź ceny moich usług</p>
 		<h1 class="text-6xl text-purple-700 font-medium text-center md:text-left">Cennik</h1>

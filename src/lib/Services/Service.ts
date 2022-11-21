@@ -7,7 +7,8 @@ const uslugi = readable([
 		opis: 'Prosta strona do reprezentacji ciebie lub twojej firmy. Do wyboru z dostępnych projektów - możliwa jedynie jest zmiana kolejności sekcji, kolorów strony oraz zawartości i zdjęć.',
 		type: 'cheapWeb',
 		punkty: [
-			'Strona do wyboru dostępnych projektów',
+			'Projekt do wyboru z dostępnych gotowców',
+			'Niesamowita wydajność',
 			'Wsparcie Internetowe przez tydzień',
 			'Możliwość małej konfiguracji wyglądu',
 			'Dostęp do Google Search Console',
@@ -20,9 +21,17 @@ const uslugi = readable([
 	{
 		id: 2,
 		name: 'Strona wizytówka z personalnym projektem',
-		opis: 'Strona dla ciebie lub twojej firmy zaprojektowana od podstaw.',
+		opis: 'Strona do reprezentacji ciebie lub twojej firmy z wykonanym przeze mnie spersonalizowanym projektem specjalnie na twoje potrzeby, możliwość zaimplementowania formularza kontatkowego.',
 		type: 'cheapWeb',
-		punkty: ['Strona do wyboru z dostepnych projektow', 'Wsparcie internetowe przez tydzien'],
+		punkty: [
+			'Strona z personalnym projektem',
+			'Niesamowita wydajność',
+			'Wsparcie internetowe przez tydzień',
+			'Dostęp do Google Search Console',
+			'Zaimplementowane SEO',
+			'Możliwy formularz kontaktowy',
+			'Strona w pełni zgodna z a11y'
+		],
 		cena: 1000,
 		svg: `<svg xmlns="http://www.w3.org/2000/svg" class="mb-3 mx-auto fill-white h-12 w-14" preserveAspectRatio="xMidYMid meet" viewBox="0 0 576 512"><path fill="currentColor" d="M0 96h576c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96zm0 32v288c0 35.3 28.7 64 64 64h448c35.3 0 64-28.7 64-64V128H0zm64 277.3c0-29.5 23.9-53.3 53.3-53.3h117.4c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7H74.7c-5.9 0-10.7-4.8-10.7-10.7zM176 320c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64zm176-112c0-8.8 7.2-16 16-16h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16z"/></svg>`
 	},
@@ -31,7 +40,7 @@ const uslugi = readable([
 		name: 'Strona WordPress',
 		opis: 'Strona wizytówka dla ciebie lub twojej firmy stworzona na systemie CMS WordPress.',
 		type: 'cheapWeb',
-		punkty: ['Strona do wyboru z dostepnych projektow', 'Wsparcie internetowe przez tydzien'],
+		punkty: ['Strona do wyboru z dostepnych projektow', 'Wsparcie internetowe przez tydzie'],
 		cena: 800,
 		svg: `<svg xmlns="http://www.w3.org/2000/svg" class="mb-3 mx-auto fill-white h-12 w-14" preserveAspectRatio="xMidYMid meet" viewBox="0 0 576 512"><path fill="currentColor" d="M0 96h576c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96zm0 32v288c0 35.3 28.7 64 64 64h448c35.3 0 64-28.7 64-64V128H0zm64 277.3c0-29.5 23.9-53.3 53.3-53.3h117.4c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7H74.7c-5.9 0-10.7-4.8-10.7-10.7zM176 320c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64zm176-112c0-8.8 7.2-16 16-16h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16z"/></svg>`
 	},
@@ -41,7 +50,7 @@ const uslugi = readable([
 		opis: 'Strona Internetowa z właściwościami pełnoprawnej aplikacji, zaprojektowana od podstaw np. system logistyczny.',
 		type: 'web',
 		punkty: ['Strona do wyboru z dostepnych projektow', 'Wsparcie internetowe przez tydzien'],
-		cena: 3000,
+		cena: 2000,
 		svg: `<svg xmlns="http://www.w3.org/2000/svg" class="mb-3 mx-auto fill-white h-12 w-14" preserveAspectRatio="xMidYMid meet" viewBox="0 0 576 512"><path fill="currentColor" d="M64 0C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h176l-10.7 32H160c-17.7 0-32 14.3-32 32s14.3 32 32 32h256c17.7 0 32-14.3 32-32s-14.3-32-32-32h-69.3L336 416h176c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zm448 64v224H64V64h448z"/></svg>`
 	},
 	{
