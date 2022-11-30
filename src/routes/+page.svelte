@@ -1,15 +1,8 @@
 <script context="module">
 	import Hero from '$lib/Hero.svelte';
-	import Me from '$lib/Benefits.svelte';
+	import Benefits from '$lib/Benefits.svelte';
 	import Offer from '$lib/Offer.svelte';
-</script>
-
-<script lang="ts">
-	let showForm: boolean = false;
-
-	const showContactForm = () => {
-		showForm = !showForm;
-	};
+	import Process from '$lib/Process.svelte';
 </script>
 
 <svelte:head>
@@ -18,4 +11,5 @@
 
 <Hero />
 <Offer />
-<Me />
+<Benefits />
+<Process />

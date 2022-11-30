@@ -41,12 +41,8 @@
 		src="/{$projects[position].imgUrl}"
 		alt="Obrazek strony hydrobar"
 		class="w-full h-full col-start-1 col-end-10 rounded-xl row-start-1 row-span-full"
-		in:fly={{ duration: 300, x: 100 }}
 	/>
-	<div
-		class="rounded-xl col-start-10 col-end-13 z-30 row-start-1 row-span-full bg-[#171717] p-4"
-		in:fly={{ duration: 300, x: 100 }}
-	>
+	<div class="rounded-xl col-start-10 col-end-13 z-30 row-start-1 row-span-full bg-[#171717] p-4">
 		<h2>{$projects[position].title}</h2>
 		<p class="text-xl text-center">
 			{$projects[position].opis}
