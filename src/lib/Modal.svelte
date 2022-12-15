@@ -22,9 +22,9 @@
 	<div
 		class="w-full md:w-5/6 lg:w-3/4 2xl:w-1/2 h-fit text-white p-6 rounded-xl shadow bg-[#171717] lg:mt-24 md:mt-20 mt-14"
 	>
-		<div class="border-2 pb-6 rounded-xl border-purple-700 border-opacity-25">
+		<div class="border-2 pb-6 rounded-xl border-orange-700 border-opacity-25">
 			<h3
-				class="flex font-medium text-2xl justify-between items-center p-4 rounded-t-xl bg-purple-700 bg-opacity-25"
+				class="flex font-medium text-2xl justify-between items-center p-4 rounded-t-xl bg-orange-700 bg-opacity-25"
 			>
 				{$service[id - 1].name}
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -62,7 +62,7 @@
 				</ul>
 				<div class="flex flex-row justify-center">
 					<button
-						class="px-8 py-2 mx-auto bg-purple-700 bg-opacity-25 mt-4 rounded-xl text-lg hover:bg-purple-800 hover:bg-opacity-25 font-medium"
+						class="px-8 py-2 mx-auto bg-orange-700 bg-opacity-25 mt-4 rounded-xl text-lg hover:bg-orange-800 hover:bg-opacity-25 font-medium"
 						on:click={() => {
 							goto('/contact');
 						}}>Skontaktuj się</button

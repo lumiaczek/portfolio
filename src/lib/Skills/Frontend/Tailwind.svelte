@@ -19,7 +19,7 @@
 			<p class="text-right">Średnio zaawansowany</p>
 		</div>
 		<div class="h-2.5 rounded-full w-full bg-[#191919]">
-			<div class="h-2.5 rounded-full bg-purple-700 w-[78%] animate-[loadTa_1.5s_ease-in-out]" />
+			<div class="h-2.5 rounded-full bg-orange-700 w-[78%] animate-[loadTa_1.5s_ease-in-out]" />
 		</div>
 	</div>
 </div>

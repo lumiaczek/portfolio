@@ -17,7 +17,7 @@
 <svelte:head>
 	<meta
 		name="description"
-		content="Daniel Borowski, strona oferująca usługi informatyczne w tym tworzenie aplikacji oraz stron internetowych i usługi informatyczne"
+		content="Profesjonalne tworzenie stron oraz aplikacji Internetowych, projektowanie oraz wdrażanie lokalnych sieci komputerowych, montaż i konserwacja systemów komputerowych."
 	/>
 </svelte:head>
 

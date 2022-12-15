@@ -5,12 +5,12 @@
 <section class="xl:w-[90%] lg:h-[90vh] xl:mx-auto 3xl:w-[85%] flex flex-col  text-white p-6">
 	<div class="w-full">
 		<p class="text-2xl text-center mx-auto">Zrealizujmy twój pomysł</p>
-		<h1 class="text-6xl text-purple-700 font-medium text-center mt-1">Kontakt</h1>
+		<h1 class="text-6xl text-orange-700 font-medium text-center mt-1">Kontakt</h1>
 	</div>
 	<div class="flex flex-col lg:flex-row w-full justify-center mt-10">
 		<div class="flex flex-col gap-6">
 			<div class="card-contact text-2xl flex-col flex gap-2">
-				<div class="border-2 border-purple-700 p-6 rounded-lg h-full">
+				<div class="border-2 border-orange-700 p-6 rounded-lg h-full">
 					<div class="flex flex-row items-center mb-4">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@
 				</div>
 			</div>
 			<div class="card-contact text-2xl flex-col flex gap-2">
-				<div class="border-2 border-purple-700 p-6 rounded-lg h-full">
+				<div class="border-2 border-orange-700 p-6 rounded-lg h-full">
 					<div class="flex flex-row items-center mb-4">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@
 				</div>
 			</div>
 			<div class="card-contact text-2xl flex-col flex gap-2 ">
-				<div class="border-2 border-purple-700 p-6 rounded-lg h-full">
+				<div class="border-2 border-orange-700 p-6 rounded-lg h-full">
 					<div class="flex flex-row items-center mb-4">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -79,20 +79,20 @@
 			<p class="text-xl mb-1">Imię</p>
 			<input
 				type="text"
-				class="bg-[#171717] bg-opacity-50 border-b-2 border-2 border-b-purple-700 border-transparent focus:border-purple-700 transition-all duration-200 outline-none rounded-lg text-lg px-6 py-2 w-full"
+				class="bg-[#171717] bg-opacity-50 border-b-2 border-2 border-b-orange-700 border-transparent focus:border-orange-700 transition-all duration-200 outline-none rounded-lg text-lg px-6 py-2 w-full"
 			/>
 			<p class="text-xl mb-1 mt-3">Adres e-mail</p>
 			<input
 				type="text"
-				class="bg-[#171717] bg-opacity-50 border-b-2 border-2 border-b-purple-700 border-transparent focus:border-purple-700 transition-all duration-200 outline-none rounded-lg text-lg px-6 py-2"
+				class="bg-[#171717] bg-opacity-50 border-b-2 border-2 border-b-orange-700 border-transparent focus:border-orange-700 transition-all duration-200 outline-none rounded-lg text-lg px-6 py-2"
 			/>
 			<p class="text-xl mb-1 mt-3">Wiadomość</p>
 			<textarea
 				cols="30"
 				rows="10"
-				class="bg-[#171717] bg-opacity-50 border-b-2 border-2 border-b-purple-700 border-transparent focus:border-purple-700 transition-all duration-200 outline-none rounded-lg text-lg px-6 py-2 resize-none"
+				class="bg-[#171717] bg-opacity-50 border-b-2 border-2 border-b-orange-700 border-transparent focus:border-orange-700 transition-all duration-200 outline-none rounded-lg text-lg px-6 py-2 resize-none"
 			/>
-			<button class="px-6 py-4 w-1/2 mx-auto bg-purple-700 rounded-lg mt-4 text-xl font-medium"
+			<button class="px-6 py-4 w-1/2 mx-auto bg-orange-700 rounded-lg mt-4 text-xl font-medium"
 				>Wyślij</button
 			>
 		</form>

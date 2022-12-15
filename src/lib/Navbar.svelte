@@ -16,7 +16,7 @@
 	>
 		<div class="flex flex-row justify-between w-full lg:w-fit">
 			<h1 class="text-2xl">
-				<strong class="text-2xl font-semibold text-purple-700">Daniel </strong>Borowski
+				<strong class="text-2xl font-bold text-orange-700">Daniel </strong>Borowski
 			</h1>
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<svg
@@ -78,7 +78,7 @@
 					<a href="https://github.com/lumiaczek" target="Github" aria-label="Github">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="w-7 h-7 fill-white hover:fill-purple-700 transition-all duration-200"
+							class="w-7 h-7 fill-white hover:fill-orange-700 transition-all duration-200"
 							preserveAspectRatio="xMidYMid meet"
 							viewBox="0 0 448 512"
 							><path
@@ -96,7 +96,7 @@
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="w-7 h-7 fill-white hover:fill-purple-700 transition-all duration-200"
+							class="w-7 h-7 fill-white hover:fill-orange-700 transition-all duration-200"
 							preserveAspectRatio="xMidYMid meet"
 							viewBox="0 0 448 512"
 							><path
@@ -114,7 +114,7 @@
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="w-7 h-7 fill-white hover:fill-purple-700 transition-all duration-200"
+							class="w-7 h-7 fill-white hover:fill-orange-700 transition-all duration-200"
 							preserveAspectRatio="xMidYMid meet"
 							viewBox="0 0 448 512"
 							><path

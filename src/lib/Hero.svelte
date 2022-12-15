@@ -5,7 +5,7 @@
 <script lang="ts">
 </script>
 
-<main class="w-full background">
+<main class="w-full background ">
 	<section
 		class="w-full grid grid-cols-1 lg:grid-cols-12 lg:grid-rows-2 lg:gap-2 text-white items-center xl:w-[90%] xl:mx-auto 3xl:w-[85%] lg:h-[90vh] lg:p-6"
 	>
@@ -13,7 +13,7 @@
 			class="lg:col-start-1 lg:col-end-8 lg:row-span-full mx-auto lg:mx-0 text-center md:text-left mt-12 lg:mt-0 space-y-1"
 		>
 			<p class="text-3xl md:text-4xl">Cześć,</p>
-			<h1 class="text-4xl md:text-6xl">Jestem <strong class="text-purple-700">Daniel.</strong></h1>
+			<h1 class="text-4xl md:text-6xl">Jestem <strong class="text-orange-700">Daniel.</strong></h1>
 			<h2 class="text-2xl md:text-3xl">Tworzę profesjonalne strony internetowe.</h2>
 			<div class="">
 				<button
@@ -23,7 +23,7 @@
 					}}
 				>
 					<span
-						class="absolute group-hover:w-0 transition-all w-full ease-in duration-200 bg-purple-700 h-full top-0 left-0"
+						class="absolute group-hover:w-0 transition-all w-full ease-in duration-200 bg-orange-700 h-full top-0 left-0"
 					/>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

@@ -24,15 +24,15 @@
 </script>
 
 <section
-	class="lg:grid p-4 grid-cols-12 col-start-1 grid-rows-3 col-end-13 row-start-2 row-span-full w-full border-2 border-purple-700 gap-2 rounded-xl"
+	class="lg:grid p-4 grid-cols-12 col-start-1 grid-rows-3 col-end-13 row-start-2 row-span-full w-full border-2 border-orange-700 gap-2 rounded-xl"
 >
 	<button
-		class="rounded-xl text-2xl text-white bg-purple-700 bg-opacity-25 text-center cursor-pointer"
+		class="rounded-xl text-2xl text-white bg-orange-700 bg-opacity-25 text-center cursor-pointer"
 		on:click={moveDown}
 		>&#8592;
 	</button>
 	<button
-		class="rounded-xl text-2xl text-white bg-purple-700 bg-opacity-25 text-center cursor-pointer"
+		class="rounded-xl text-2xl text-white bg-orange-700 bg-opacity-25 text-center cursor-pointer"
 		on:click={moveUp}
 	>
 		&#8594;

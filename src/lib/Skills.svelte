@@ -30,7 +30,7 @@
 >
 	<div class="col-start-1 col-end-7 row-start-1">
 		<p class="text-3xl text-center md:text-left">W czym jestem dobry</p>
-		<h1 class="text-5xl md:text-6xl text-purple-700 font-medium text-center md:text-left">
+		<h1 class="text-5xl md:text-6xl text-orange-700 font-medium text-center md:text-left">
 			Moje umiejętności
 		</h1>
 		<div
