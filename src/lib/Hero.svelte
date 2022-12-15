@@ -13,7 +13,7 @@
 			class="lg:col-start-1 lg:col-end-8 lg:row-span-full mx-auto lg:mx-0 text-center md:text-left mt-12 lg:mt-0 space-y-1"
 		>
 			<p class="text-3xl md:text-4xl">Cześć,</p>
-			<h1 class="text-4xl md:text-6xl">Jestem <strong class="text-orange-700">Daniel.</strong></h1>
+			<h1 class="text-4xl md:text-6xl">Jestem <strong class="text-blue-700">Daniel.</strong></h1>
 			<h2 class="text-2xl md:text-3xl">Tworzę profesjonalne strony internetowe.</h2>
 			<div class="">
 				<button
@@ -23,7 +23,7 @@
 					}}
 				>
 					<span
-						class="absolute group-hover:w-0 transition-all w-full ease-in duration-200 bg-orange-700 h-full top-0 left-0"
+						class="absolute group-hover:w-0 transition-all w-full ease-in duration-200 bg-blue-700 h-full top-0 left-0"
 					/>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@
 		</div>
 		<!-- svelte-ignore a11y-img-redundant-alt -->
 		<img
-			src="/hero.svg"
+			src="/hero2.svg"
 			alt="A picture of person programing"
 			class="lg:col-start-7 lg:col-span-11 lg:row-span-full mt-16 lg:mt-0 3xl:col-start-6 px-6 lg:px-0"
 		/>

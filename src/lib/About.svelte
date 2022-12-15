@@ -17,7 +17,7 @@
 >
 	<div class="col-start-1 col-end-6 row-start-1 row-end-2 ">
 		<p class="text-3xl text-center md:text-left">Kilka słów</p>
-		<h1 class="text-6xl text-orange-700 mb-4 font-medium text-center md:text-left">O mnie</h1>
+		<h1 class="text-6xl text-blue-700 mb-4 font-medium text-center md:text-left">O mnie</h1>
 		<div class="flex flex-row items-center gap-2 mb-4 justify-center md:justify-start">
 			<button
 				class="btn-about"
@@ -51,7 +51,7 @@
 	</div>
 
 	<img
-		src="/hero2.svg"
+		src="/about2.svg"
 		alt=""
 		class="col-start-7 col-span-5 row-span-2 w-full sm:w-1/2 md:hidden xl:w-full xl:inline mt-10 mx-auto xl:m-0"
 	/>

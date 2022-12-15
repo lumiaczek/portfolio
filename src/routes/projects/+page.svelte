@@ -11,7 +11,7 @@
 >
 	<div class="col-start-1 col-end-6 ">
 		<p class="text-3xl text-center md:text-left">Zobacz co już wykonałem</p>
-		<h1 class="text-6xl text-orange-700 mb-4 font-medium text-center md:text-left">Projekty</h1>
+		<h1 class="text-6xl text-blue-700 mb-4 font-medium text-center md:text-left">Projekty</h1>
 	</div>
 	<Projects />
 </section>

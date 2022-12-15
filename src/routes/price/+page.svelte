@@ -18,7 +18,7 @@
 <section class="xl:w-[90%] xl:mx-auto 3xl:w-[85%] flex flex-col text-white p-6 overflow-hidden">
 	<div class="">
 		<p class="text-3xl text-center md:text-left mb-1">Sprawdź ceny moich usług</p>
-		<h1 class="text-6xl text-orange-700 font-medium text-center md:text-left">Cennik</h1>
+		<h1 class="text-6xl text-blue-700 font-medium text-center md:text-left">Cennik</h1>
 	</div>
 	<div class="flex xl:flex-row flex-col h-full mt-6">
 		<div
@@ -46,7 +46,7 @@
 					<input
 						type="checkbox"
 						bind:checked={filter.web}
-						class="w-5 h-5 appearance-none border-2 border-[#171717] rounded bg-white mr-1 checked:bg-orange-700"
+						class="w-5 h-5 appearance-none border-2 border-[#171717] rounded bg-white mr-1 checked:bg-blue-700"
 						id="web"
 					/>
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -63,7 +63,7 @@
 					<input
 						type="checkbox"
 						bind:checked={filter.cheapWeb}
-						class="w-5 h-5  appearance-none border-2 border-[#171717] rounded bg-white mr-1 checked:bg-orange-700"
+						class="w-5 h-5  appearance-none border-2 border-[#171717] rounded bg-white mr-1 checked:bg-blue-700"
 						id="site"
 					/>
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -80,7 +80,7 @@
 					<input
 						type="checkbox"
 						bind:checked={filter.hardware}
-						class="w-5 h-5 appearance-none border-2 border-[#171717] rounded bg-white mr-1 checked:bg-orange-700"
+						class="w-5 h-5 appearance-none border-2 border-[#171717] rounded bg-white mr-1 checked:bg-blue-700"
 					/>
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
 					<p

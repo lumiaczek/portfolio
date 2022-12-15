@@ -3,7 +3,7 @@
 >
 	<div class="col-start-1 col-end-6 row-start-1">
 		<p class="text-3xl text-center md:text-left">Jak wygląda realizacja zamówienia</p>
-		<h1 class="text-6xl text-orange-700 font-medium text-center md:text-left mb-8">
+		<h1 class="text-6xl text-blue-700 font-medium text-center md:text-left mb-8">
 			Nasza współpraca
 		</h1>
 	</div>

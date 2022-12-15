@@ -18,7 +18,7 @@
 			<p class="text-right">Średnio zaawansowany</p>
 		</div>
 		<div class="h-2.5 rounded-full w-full bg-[#191919] ">
-			<div class="h-2.5 rounded-full bg-orange-700 w-[75%] animate-[loadJ_1.5s_ease-in-out]" />
+			<div class="h-2.5 rounded-full bg-blue-700 w-[75%] animate-[loadJ_1.5s_ease-in-out]" />
 		</div>
 	</div>
 </div>
